@@ -1,25 +1,29 @@
 import github from '../assets/github.svg';
+import barbershop from '../assets/barbershop.png';
+import lego from '../assets/Lego.png';
+import dApp from '../assets/dApp.png';
+
 
 export const Projects = () => {
     const projects = [
         {
             title: 'Барбершоп',
             description: 'Адаптивный сайт c предоставлением товаров и услуг',
-            image: '/barbershop.png',
+            image: barbershop,
             technologies: ['HTML5', 'CSS3', 'JavaScript'],
             link: 'https://github.com/Grisha777/Barbershop',
         },
         {
             title: 'Магазин лего',
             description: 'Магазин Лего с регистрацией и авторизацией, взаимодействием с товарами и с сервером',
-            image: '/Lego.png',
+            image: lego,
             technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Json-server'],
             link: 'https://github.com/Grisha777/Shop',
         },
         {
             title: 'Децентрализованное приложение для управления недвижимостью',
             description: 'DApp, обеспечивающее размещение объектов недвижимости, проверку права собственности и проведение сделок на основе технологии блокчейн.',
-            image: '/dApp.png',
+            image: dApp,
             technologies: ['TypeScript', 'React', 'Tailwind', 'MetaMask', 'Ethers.js', 'Solidity', 'Hardhat','NodeJS','Pinata', 'Vite'],
             link: 'https://github.com/Grisha777/Real-estate-dapp',
         },
